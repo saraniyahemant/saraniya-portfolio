@@ -526,6 +526,90 @@
 
         }
 
+		/* ================= RESPONSIVE FIX ================= */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-item {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 576px) {
+
+    section {
+        padding: 60px 15px;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 120px 15px 60px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        word-break: break-word;
+    }
+
+    .hero h2 {
+        font-size: 1.3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        margin-top: 35px;
+    }
+
+    .btn-custom {
+        display: block;
+        width: 100%;
+        margin: 10px 0 !important;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    .skill-badge {
+        padding: 10px 15px;
+        margin: 4px 2px;
+        font-size: 14px;
+    }
+
+    .custom-card {
+        padding: 20px !important;
+    }
+
+    .contact-item {
+        font-size: 14px;
+    }
+
+    .social a {
+        width: 45px;
+        height: 45px;
+        margin: 4px;
+    }
+
+}
+
     </style>
 </head>
 
